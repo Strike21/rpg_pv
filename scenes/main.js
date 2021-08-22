@@ -101,7 +101,7 @@ player.overlaps("door", () => {
 			go("win");
 		}
 	} else {
-		talk("you got no key!");
+		talk("Você ganhou!");
 	}
 });
 
