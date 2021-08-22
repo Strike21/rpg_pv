@@ -3,7 +3,7 @@
 <html>
 
 <head>
-  <title>kaboom</title>
+  <title>rpg_beta</title>
   <meta charset="utf-8">
   <style>
     * {
@@ -145,7 +145,7 @@ player.overlaps("door", () => {
 			go("win");
 		}
 	} else {
-		talk("you got no key!");
+		talk("Você só sai desta sala se tiver com uma chave!");
 	}
 });
 
@@ -179,7 +179,7 @@ keyPress("down", () => {
 });
 scene("win", (args = {}) => {
 add([
-	text("you win!"),
+	text("Você ganhou!"),
 	pos(width() / 2, height() / 2),
 	origin("center"),
 ]);
