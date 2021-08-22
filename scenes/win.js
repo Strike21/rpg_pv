@@ -1,5 +1,5 @@
 add([
-	text("you win!"),
+	text("Vencedor"),
 	pos(width() / 2, height() / 2),
 	origin("center"),
 ]);
